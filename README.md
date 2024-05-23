@@ -24,11 +24,13 @@ cd Interactive-Video-Question-Answering
 ```
 
 ### Download the Dataset
-Download the dataset and place it in the `data/` folder. You can follow the instructions provided in the dataset source or use a custom script to download it.
+Download the dataset and place it in the `data/` folder. You can follow the instructions provided in the dataset source or use a custom script to download it. Please refer to https://github.com/xudejing/video-question-answering (the MSVD-QA GitHub) for the folder of the videos. 
 
 ## Usage
 
 ### Data Preparation
+The Pretrained model can be found in the IVQA.pynb script prepared to be trained on the clarifying training set.
+
 1. **Load Data**: This script loads the dataset and prepares it for training and testing.
    ```sh
    python src/load_data.py
